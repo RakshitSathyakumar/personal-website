@@ -1,0 +1,164 @@
+/* **********************Body of the html************************* */
+body{
+    /* background-color: #E3FDFD; */
+    background-color: #D7FBE8;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-top: 0px;
+    color: black;
+    /* font-size: 2em; */
+}
+
+
+
+h1{
+    font-size: 4.27rem;
+    margin-top: 0px;
+    position: relative;
+    top: 5%;
+    font-family: 'Sacramento', cursive;
+    padding-top: 10%;
+    border-top: 50px;
+    /* color:  #66BFBF; */
+    color: #142850;
+    line-height: 0.5;
+    
+}
+h2{
+    font-size: 1.5rem;
+    color:  #142850;
+    font-weight: normal;
+}
+h3,a{
+    color:#142850;
+    /* font-weight: normal; */
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: small;
+}
+a:hover{
+    color: white;
+}
+
+p{
+    position: relative;
+    padding-top: 0%;
+    top: 5%;
+}
+.contact-me{
+    line-height: 2;
+    width: 25%;
+    margin: auto;
+}
+.profile{
+    font-size: small;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-size: medium;
+
+}
+
+.top_container{
+    /* background-color: #212121; */
+    height: 550%;
+    position: relative;
+   font-style:oblique ;
+}
+.bottom-container{
+    padding: 5px 20px;
+    background-color:#66BFBF;
+    font-size: small;
+}
+.copyright{
+    padding: 20px 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 0.75rem;
+    color: white;
+}
+hr{
+    background-color:"white";
+    height: 0px;
+    width: 15%;
+    size: 20px;
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+}
+/* *****************************images **********************************************/
+img{
+    position: relative;
+    top: 10%;
+}
+.cloud_top{
+    width: 100px;
+    position: absolute;
+    right: 20%;
+    top:25px;
+}
+.cloud_left{
+    width: 100px;
+    position: absolute;
+    left: 20%;
+    top:125px;
+}
+.intro{
+    color: black;
+    width: 40%;
+    margin: auto;
+    line-height: 2.5;
+}
+
+
+.mountain{
+    
+    width: 350px;
+}
+.programmer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.profile_pic{
+    padding-top: 5%;
+}
+.sun{
+    position: absolute;
+    left: 10%;
+    width: 55px;
+}
+.web-programmer{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+/* ***********************************************buttons************************************* */
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Merriweather', serif;
+    color: #e6d8e6;
+    font-size: 15px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    /* background: #0c0d0d; */
+    background: grey; 
+    color: black;  
+    text-decoration: none;
+  }
